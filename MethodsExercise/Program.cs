@@ -6,6 +6,8 @@ namespace MethodsExercise
     {
         static void Main(string[] args)
         {
+            var result = Add(7, 17);
+            var result2 = Multiply(5, 9);
             Console.WriteLine("What is your name?");
             var name = Console.ReadLine();
             Console.WriteLine("What is your favorite color?");
@@ -16,7 +18,26 @@ namespace MethodsExercise
             var favBand = Console.ReadLine();
 
             Console.WriteLine($"{name} is an {favColor} {favAnimal} that likes to eat people while listening to {favBand}!");
+            
+           
+            
+            
+
         }
+        public static int Add(int num1, int num2)
+        {
+            var answer = num1 + num2;
+            return answer;
+        }
+        public static int Multiply(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+        
+        
+            
+            
+        
 
     }
 }
