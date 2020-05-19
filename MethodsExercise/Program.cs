@@ -15,8 +15,9 @@ namespace MethodsExercise
         }
         static void Main(string[] args)
         {
-            var amountTotal = Add(7, 17);
-            var blah = Multiply(5, 9);
+            var total = Add(7, 17);
+            var result = Multiply(5, 9);
+
             Console.WriteLine("What is your name?");
             var name = Console.ReadLine();
             Console.WriteLine("What is your favorite color?");
